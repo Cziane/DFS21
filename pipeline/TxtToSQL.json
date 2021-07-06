@@ -32,6 +32,26 @@
 					"enableStaging": false,
 					"translator": {
 						"type": "TabularTranslator",
+						"mappings": [
+							{
+								"source": {
+									"ordinal": 1
+								},
+								"sink": {
+									"name": "FirstName",
+									"physicalType": "varchar"
+								}
+							},
+							{
+								"source": {
+									"ordinal": 2
+								},
+								"sink": {
+									"name": "LastName",
+									"physicalType": "varchar"
+								}
+							}
+						],
 						"typeConversion": true,
 						"typeConversionSettings": {
 							"allowDataTruncation": true,
