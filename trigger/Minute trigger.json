@@ -1,0 +1,26 @@
+{
+	"name": "Minute trigger",
+	"properties": {
+		"description": "A trigger who copy data every minutes",
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "TxtToSQL",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 1,
+				"startTime": "2021-07-06T10:04:00Z",
+				"endTime": "2021-07-07T10:14:00Z",
+				"timeZone": "UTC"
+			}
+		}
+	}
+}
