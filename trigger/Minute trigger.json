@@ -3,7 +3,7 @@
 	"properties": {
 		"description": "A trigger who copy data every minutes",
 		"annotations": [],
-		"runtimeState": "Stopped",
+		"runtimeState": "Started",
 		"pipelines": [
 			{
 				"pipelineReference": {
@@ -17,8 +17,8 @@
 			"recurrence": {
 				"frequency": "Minute",
 				"interval": 1,
-				"startTime": "2021-07-06T10:04:00Z",
-				"timeZone": "UTC"
+				"startTime": "2021-07-06T00:16:00",
+				"timeZone": "Romance Standard Time"
 			}
 		}
 	}
