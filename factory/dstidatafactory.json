@@ -1,0 +1,9 @@
+{
+	"name": "dstidatafactory",
+	"location": "westeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "aa9c41dd-fc33-40f6-8dcb-26010eabff24",
+		"tenantId": "e5d15069-41a2-48be-a3f3-d7f52db16425"
+	}
+}
